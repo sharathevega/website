@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Registration - TechConf 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">TechConf 2026</h1>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="speakers.html">Speakers</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1>Contact & Registration</h1>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+
+          <div class="info-section">
+            <h3>📍 Address</h3>
+            <p>San Francisco Convention Center</p>
+            <p>747 Market Street</p>
+            <p>San Francisco, CA 94103</p>
+          </div>
+
+          <div class="info-section">
+            <h3>📧 Email</h3>
+            <p>
+              <a href="mailto:info@techconf2026.com">info@techconf2026.com</a>
+            </p>
+            <p>
+              <a href="mailto:registration@techconf2026.com"
+                >registration@techconf2026.com</a
+              >
+            </p>
+          </div>
+
+          <div class="info-section">
+            <h3>📞 Phone</h3>
+            <p>+1 (555) 123-4567</p>
+            <p>+1 (555) 123-4568</p>
+          </div>
+
+          <div class="info-section">
+            <h3>🌐 Social Media</h3>
+            <p>Twitter: @TechConf2026</p>
+            <p>LinkedIn: TechConf 2026</p>
+            <p>Facebook: TechConf2026</p>
+          </div>
+
+          <div class="info-section">
+            <h3>⏰ Hours</h3>
+            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+            <p>Saturday - Sunday: 10:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+
+        <div class="registration-form">
+          <h2>Register Now</h2>
+          <form id="registrationForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" />
+            </div>
+
+            <div class="form-group">
+              <label for="job-title">Job Title</label>
+              <input type="text" id="job-title" name="job-title" />
+            </div>
+
+            <div class="form-group">
+              <label for="ticket-type">Ticket Type *</label>
+              <select id="ticket-type" name="ticket-type" required>
+                <option value="">Select a ticket</option>
+                <option value="early-bird">Early Bird - $299</option>
+                <option value="standard">Standard - $399</option>
+                <option value="premium">Premium (All-Access) - $599</option>
+                <option value="group">Group (5+) - $349 per person</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="interests"
+                >Areas of Interest (Select all that apply)</label
+              >
+              <div class="checkbox-group">
+                <label
+                  ><input type="checkbox" name="interest" value="AI" />
+                  Artificial Intelligence</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="Cloud" /> Cloud
+                  Computing</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="Security" />
+                  Cybersecurity</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="Web" /> Web
+                  Development</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="Mobile" />
+                  Mobile Development</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="Data" /> Data
+                  Science</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="Blockchain" />
+                  Blockchain/Web3</label
+                >
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Additional Comments</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about yourself..."
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label
+                ><input type="checkbox" name="newsletter" checked /> Subscribe
+                to our newsletter</label
+              >
+            </div>
+
+            <div class="form-group">
+              <label
+                ><input type="checkbox" name="terms" required /> I agree to the
+                terms and conditions *</label
+              >
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              Complete Registration
+            </button>
+          </form>
+          <p class="form-note">* Required fields</p>
+        </div>
+      </div>
+
+      <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>Can I cancel my registration?</h3>
+          <p>
+            Yes, cancellations are allowed up to 7 days before the event for a
+            full refund. After that, 50% refund applies.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Is there a dress code?</h3>
+          <p>
+            Business casual attire is recommended. Comfortable shoes are
+            suggested as the venue is spacious.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Will meals be provided?</h3>
+          <p>
+            Yes, lunch and refreshments are included for all attendees. Special
+            dietary requirements can be accommodated - please mention in
+            registration.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I attend just one day?</h3>
+          <p>
+            Yes, single-day passes are available for $199. Select your preferred
+            day during registration.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Will sessions be recorded?</h3>
+          <p>
+            Yes, all keynote sessions will be recorded and available to
+            registered attendees for 30 days after the conference.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Is there parking available?</h3>
+          <p>
+            Yes, the convention center has on-site parking. Early arrival is
+            recommended as spaces fill up during the day.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 TechConf. All rights reserved.</p>
+        <p>Email: info@techconf2026.com | Phone: +1 (555) 123-4567</p>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("registrationForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Thank you for registering! You will receive a confirmation email shortly.",
+          );
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
